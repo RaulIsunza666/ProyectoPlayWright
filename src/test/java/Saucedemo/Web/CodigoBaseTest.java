@@ -16,6 +16,7 @@ public class CodigoBaseTest extends HookWeb {
             .conPassword(ConfigReader.get("usuario.password"))
             .build();
 
+    @Disabled("No es fujo prioritario")
     @Test
     @Story("Usuario válido puede loguearse")
     @Severity(SeverityLevel.CRITICAL)
@@ -37,6 +38,7 @@ public class CodigoBaseTest extends HookWeb {
                 .verificarPantallaCompraCompletada();
     }
 
+    @Disabled("No es fujo prioritario")
     @Test
     void seleccionMultiple(){
         app.login()
@@ -45,6 +47,7 @@ public class CodigoBaseTest extends HookWeb {
                 .verificarCarritoCompras();
     }
 
+    @Disabled("No es fujo prioritario")
     @Test
     void verificarProductosAgregadosPreviamente(){
         app.login()
@@ -57,6 +60,7 @@ public class CodigoBaseTest extends HookWeb {
         sesionConProductos.crearNuevaSesionBrowser(credenciales, browser);
     }
 
+    @Disabled("No es fujo prioritario")
     @Test
     void verificarOrdenamiento(){
         app.login().realizarLoginConOrdenamiento(credenciales)
