@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/RaulIsunza666/ProyectoPlayWright/actions/workflows/maven.yml/badge.svg)](https://github.com/RaulIsunza666/ProyectoPlayWright/actions/workflows/maven.yml)
+
 # Proyecto de Automatización (Playwright + Java)
 
 Proyecto personal para demostrar habilidades prácticas de automatización en **Web** y **APIs** usando Playwright con Java.
