@@ -24,7 +24,8 @@ public class ApiTest extends HookAPIs {
         assertTrue(body.contains("sunt aut facere "));
         System.out.println(body);
     }
-
+    
+    @Disabled("Utiliza otro servicio")
     @Test
     void verificarUsuarios(){
         UserController userController = new UserController(request);
