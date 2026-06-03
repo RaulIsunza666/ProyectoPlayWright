@@ -17,8 +17,7 @@ public class HookWeb {
     @BeforeAll
     static void setupAll() {
         playwright = Playwright.create();
-        browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(800)
-        );
+        browser = playwright.firefox().launch(new BrowserType.LaunchOptions());
     }
 
     @BeforeEach
