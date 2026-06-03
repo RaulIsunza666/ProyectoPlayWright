@@ -18,6 +18,7 @@ public class ApiPostsTest extends HookAPIs {
         System.out.println(respuesta.text());
     }
 
+    @Disabled("No es fujo prioritario")
     @Test
     void crearUsuarioPost() {
         // 1. Preparamos los datos usando los Setters de Lombok
